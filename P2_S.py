@@ -1,7 +1,6 @@
 import pygame
 
 pygame.init()
-clock=pygame.time.Clock()
 
 screen = pygame.display.set_mode((400,400))
 
@@ -35,3 +34,4 @@ while True:
     pygame.draw.rect(screen,(255,255,255),w1)
   
     pygame.display.update()
+    pygame.time.delay(3)
